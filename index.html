@@ -8,10 +8,12 @@
     <title>الأجندة</title>
   </head>
   <body
-    class="h-screen bg-gradient-to-tr from-fuchsia-900 via-pink-700 to-fuchsia-700 flex flex-col items-center p-0 m-0"
+    class="h-screen bg-[#380526] md:bg-gradient-to-tr from-fuchsia-900 via-pink-700 to-fuchsia-700 flex flex-col justify-between items-center p-0 m-0"
   >
-    <div class="container flex justify-center mx-auto">
-      <div class="bg-white flex flex-col items-center rounded-3xl px-20">
+    <div class="container flex justify-center mx-auto my-5">
+      <div
+        class="bg-white max-w-[75%] flex flex-col items-center rounded-3xl px-20"
+      >
         <header>
           <div
             class="bg-[#380526] flex justify-center rounded-b-xl gap-4 px-20"
@@ -25,11 +27,11 @@
           </div>
         </header>
 
-        <section>
+        <section class="max-w-full">
           <h2 class="text-3xl text-[#380526] font-bold text-center my-4">
             أجندة الحدث
           </h2>
-          <table class="table-fixed w-96">
+          <table class="table-fixed md:w-full">
             <thead>
               <tr class="bg-fuchsia-200 text-center">
                 <th class="text-[#380526]">النشاط</th>
@@ -110,5 +112,11 @@
         </section>
       </div>
     </div>
+
+    <footer
+      class="w-full bg-fuchsia-900 text-gray-200 flex justify-center items-center h-12 text-sm"
+    >
+      الفريق التقني لاتحاد طلبة كلية تقنية المعلومات مصراتة - ليبيا &copy;
+    </footer>
   </body>
 </html>
